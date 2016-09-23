@@ -1,4 +1,6 @@
-SELECT DISTINCT p.planet_id,
+SELECT DISTINCT
+p.planet_id,
+p.slug,
 ((1 - ISNULL(p.fluff)) / 4) +
 ((1 - ISNULL(p.factory)) / 8) +
 ((1 - ISNULL(nt.planet_id)) / 8) +
