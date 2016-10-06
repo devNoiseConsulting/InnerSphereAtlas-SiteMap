@@ -8,4 +8,5 @@ author,
 count( author ) AS author_count
 FROM novel
 GROUP BY author) AS n2
-WHERE n.author = n2.author;
+WHERE n.author = n2.author
+ORDER BY 3 DESC, 2;

@@ -8,4 +8,4 @@ product p
 WHERE
 f.factory_id = p.factory_id
 GROUP BY p.factory_id
-ORDER BY 2 DESC, 1;
+ORDER BY 3 DESC, 1;

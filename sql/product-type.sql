@@ -8,4 +8,4 @@ product_type pt
 WHERE
 p.product_type_id=pt.product_type_id
 GROUP BY p.product_type_id
-ORDER BY 2 DESC, 1;
+ORDER BY 3 DESC, 1;

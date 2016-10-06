@@ -13,4 +13,4 @@ ISNULL(p.native_life) - ISNULL(p.star_type) - ISNULL(p.planets_in_system) -
 ISNULL(p.position) - ISNULL(p.satellites) - ISNULL(p.atm_pressures)) / 16 / 4)
 +0.25) / 2 + 0.1 AS infoStat
 FROM planet p LEFT JOIN novel_timeline nt ON p.planet_id = nt.planet_id
-ORDER BY 2 DESC, 1;
+ORDER BY 3 DESC, 1;
